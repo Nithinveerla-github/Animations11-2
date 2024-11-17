@@ -1,0 +1,145 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 50vh;
+    gap: 40px;
+
+}
+
+.boxes {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;   
+    animation-iteration-count: infinite;
+
+}
+
+.box1 {
+    background-color: blue;
+    animation-name: box1;
+
+    
+}
+
+.box2 {
+    background-color: orangered;
+    animation-name: box2;
+
+
+}
+
+.box3 {
+    background-color: yellow;
+    animation-name: box3;
+  
+
+}
+
+.box4 {
+    background-color: green;
+    animation-name: box4;
+   
+   
+}
+
+@keyframes box1 {
+    0% {
+        transform: translateY(0);
+    }
+    
+    25% {
+        transform: translateY(-30px);
+    } 
+
+    50% {
+        transform: translateY(-60px);
+    }
+
+    75% {
+        transform: translateY(-30px);
+       
+    }
+
+    100% {
+        transform: translateY(0);
+    
+    }
+}
+@keyframes box2 {
+0% {
+    transform: translateY(0px);
+}
+
+25% {
+    transform: translateY(0px);
+} 
+
+50% {
+    transform: translateY(-30px);
+}
+
+75% {
+    transform: translateY(-60px);
+}
+
+100% {
+    transform: translateY(-30px);
+}
+}
+
+@keyframes box3 {
+0% {
+    transform: translateY(-30px);
+}
+
+25% {
+    transform: translateY(0px);
+} 
+
+50% {
+    transform: translateY(0px);
+}
+
+75% {
+    transform: translateY(-30px);
+}
+
+100% {
+    transform: translateY(-60px);
+}
+}
+
+@keyframes box4 {
+0% {
+    transform: translateY(-60px);
+}
+
+25% {
+    transform: translateY(-30px);
+} 
+
+50% {
+    transform: translateY(0px);
+}
+
+75% {
+    transform: translateY(0px);
+}
+
+100% {
+    transform: translateY(-30px);
+}
+}
+
+
+
